@@ -4,7 +4,7 @@ var React = require('react'),
 var About = (props) => {
   return (
     <div>
-      <h1 className="text-center">About</h1>
+      <h1 className="text-center page-title">About</h1>
       <p>
         This is my first React application.  You can search for the weather by city name using the search in the nav bar, or by clicking on <Link to="/">Get Weather</Link> and using the form there.
       </p>
